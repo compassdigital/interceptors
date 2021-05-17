@@ -286,7 +286,8 @@ export function createClientRequestOverride(
       if (url.protocol === 'https:') {
         request = pureMethod(options)
       } else {
-        request = pureMethod(url.toString(), options)
+        request = pureMethod(options)
+        // request = pureMethod(url.toString(), options)
       }
 
       // Propagate headers set after `ClientRequest` is constructed
