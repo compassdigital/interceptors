@@ -35,7 +35,7 @@
     "@types/node-fetch": "^2.5.7",
     "@types/supertest": "^2.0.10",
     "@types/xmldom": "^0.1.30",
-    "axios": "^0.21.1",
+    "axios": "^0.28.0",
     "body-parser": "^1.19.0",
     "chai": "^4.3.4",
     "cors": "^2.8.5",
